@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.4.1'
 
-gem 'rails', '~> 5.1.0.rc2'
+gem 'rails', '~> 5.1.0'
 
 # friends of Rails
 gem 'jquery-rails'
 gem 'sprockets-rails'
-gem 'sass-rails', '>= 5.0.3'
+gem 'sass-rails', '>= 5.0.6'
 gem 'uglifier', '>= 2.7.1'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -20,7 +20,7 @@ gem 'pg'
 gem 'jbuilder', '>= 2.2.13'
 
 # for authentication
-gem 'devise' , '~> 4.2.0'
+gem 'devise' , '~> 4.3.0'
 
 # for background job processing
 gem 'delayed_job_active_record'
@@ -94,7 +94,7 @@ group :development do
   gem 'spring'
 
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '~> 3.0'
+  gem 'web-console', '~> 3.5.1'
 
   # Reenable after https://github.com/rails/rails/issues/26158 is fixed
   # gem 'listen', '~> 3.0.5'
